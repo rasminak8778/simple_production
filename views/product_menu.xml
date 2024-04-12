@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<!-- product menu for   -->
+    <menuitem id="simple_menu_root"
+              name="Simple Production"
+    />
+    <menuitem id="simple_menu_main"
+              name="Products"
+              parent="simple_menu_root"
+    />
+    <menuitem id="simple_menu_first"
+              name="Products"
+              parent="simple_menu_main"
+              action="action_simple_product_new"
+    />
+    <menuitem id="simple_menu_second"
+              name="Bill of Material"
+              parent="simple_menu_main"
+              action="action_bom_new"
+    />
+    <menuitem id="simple_menu_main_second"
+              name="Manufacturing Order"
+              parent="simple_menu_root"
+    />
+    <menuitem id="simple_menu_fourth"
+              name="Production"
+              parent="simple_menu_main_second"
+              action="manufacture_new_action"
+    />
+</odoo>

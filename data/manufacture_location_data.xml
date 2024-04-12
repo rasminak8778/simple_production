@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="manufacture_location" model="stock.location">
+        <field name="name">My MO Location</field>
+        <field name="usage">production</field>
+    </record>
+</odoo>
